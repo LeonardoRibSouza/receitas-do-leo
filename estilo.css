@@ -1,6 +1,7 @@
 body{
     background-color: #f1d0a2;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
 }
 h1{
     background-color: rgb(255, 255, 255);
@@ -8,6 +9,8 @@ h1{
     text-align: center;
     text-decoration: underline;
     color: #e99a2c;
+    padding: 15px;
+    margin-top: 0;
 }
 
 .subTitulos{
@@ -22,4 +25,10 @@ p{
 .modoDePreparo{
     background-color: #e99a2c;
     text-align: center;
+    padding: 10px; 
+    margin: 0; 
+    border: 10px outset #dd8100;
+    border-right: 10px solid #dd8100;
+    
+    
 }
