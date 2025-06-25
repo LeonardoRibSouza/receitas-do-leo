@@ -1,0 +1,25 @@
+body{
+    background-color: #f1d0a2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: #e99a2c;
+}
+
+.subTitulos{
+    color: #e6324b;
+}
+
+p{
+    text-align: center;
+    color: #000000;
+}
+
+.modoDePreparo{
+    background-color: #e99a2c;
+    text-align: center;
+}
