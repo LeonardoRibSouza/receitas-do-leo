@@ -1,25 +1,57 @@
 body{
     background-color: #f1d0a2;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 0;
+    margin: 0;
+    padding: 0;
 }
-h1{
-    background-color: rgb(255, 255, 255);
-    font-size: 50px;
+nav{
+    background-color: #ddd3bc;
+    font-size: 25px;
     text-align: center;
     text-decoration: underline;
-    color: #e99a2c;
+    color: #af7422;
     padding: 15px;
     margin-top: 0;
+    border-bottom: 5px solid #eb8900;
+}
+
+nav ul{
+    display: inline-block;
+    text-align: center;
+}
+
+nav li{
+    background-color: aqua;
+    list-style: none;
+    display: inline-block;
+}
+
+nav li a{
+    background-color: rgb(255, 199, 125);
+    padding: 2px 15px;
+    display: inline-block;
+    color:#000000;
+    border: #ffd46f solid;
+
+}
+
+nav li a:hover{
+    border: rgb(255, 199, 125) solid;
+    background-color: #ffd46f
 }
 
 .subTitulos{
     color: #e6324b;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin: 10px auto ;
 }
 
 p{
     text-align: center;
     color: #000000;
+    margin: 0 20%;
 }
 
 .modoDePreparo{
@@ -27,8 +59,24 @@ p{
     text-align: center;
     padding: 10px; 
     margin: 0; 
-    border: 10px outset #dd8100;
-    border-right: 10px solid #dd8100;
+    border: 5px solid #e09121;
     
-    
+}
+
+ol{
+    width: 50%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+ul{
+    width: 30%;
+    margin: auto;
+}
+footer p{
+    background-color: #ffbc6e;
+    padding-top: 25px;
+    margin: 20px 0 0;
+    height: 40px;
+    border-top: #000000 solid;
 }
